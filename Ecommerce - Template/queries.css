@@ -1,0 +1,122 @@
+@media (max-width:1000px){
+    #logo-title h1{
+        font-size: 22px;
+    }
+    #logo-title h3{
+        font-size: 15px;
+    }
+    #logo-container img{
+        width: 15%;
+    }
+    #poster{
+        height: 600px;
+    }
+    #poster #inner h3{
+        font-size: 25px;    
+    }
+    #poster img{
+        height: 50%;
+    }
+    #main-nav nav{
+        display: none;
+    }
+    #main-nav #browse-cats{
+        width: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #poster #inner{
+        width: 80%;
+    }
+    #email-bar input{
+    }
+    #account{
+        display: none;
+    }
+    #search-bar{
+        flex: 1;
+        margin: 0;
+        margin-left: 20px;
+    }
+    #search-bar #left{
+        width: 30%;
+    }
+      .card2 #inner{
+          width: 80%;
+    }
+    #about{
+        height: auto;
+        display: block;
+    }
+    .card4{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+@media (max-width:900px){
+     #info{
+            height: auto;
+        white-space: normal;
+    }
+    .card2{
+        width: 45%;
+        
+    }
+     #best-sells #left{
+        display: none;
+    }
+    
+}
+@media (max-width:700px){
+    
+    .card2{
+        width: 90%;
+        
+    }
+    #logo-container img{
+        width: 50px;
+        height: 50px;
+    }
+    #logo-container{
+        margin-right: auto;
+        width: auto;
+    }
+    #search-bar{
+        display: none;
+    }
+    #main-nav{
+        display: none;
+    }
+    #account{
+        display: flex;
+    }
+   
+}
+@media (max-width:520px){
+     header{
+        display: none;
+    }
+    .card3 #price button{
+        width: 60px;
+        height: 30px;
+    }
+    .card3 #price h3{
+        font-size: 13px;
+    }
+    #poster #inner h1{
+        font-size: 30px; 
+    }
+    #poster{
+        height: 400px;
+    }
+    #poster img{
+        height: 40%;
+    }
+    #poster #inner h3{
+        font-size: 20px; 
+    }
+    .card3{
+        width: 47%;
+        margin: 1%;
+    }
+}
